@@ -17,7 +17,13 @@ def shellSort(array, n):
         interval = interval // 2
 
 
-arr = [23, 68, 1, 9, 4, 3, 1]
-shellSort(arr, len(arr))
-print('Sorted Array:')
-print(arr)
+lst = [[23, 68, 1, 9, 4, 3],
+        [23, 68, 1],
+        [23, 68],
+        [57, 90, 12, 6, 7],
+        []
+    ]
+
+for i in lst:
+    shellSort(i, len(i))
+    print(i)
