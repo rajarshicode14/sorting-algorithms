@@ -30,8 +30,6 @@ def quickSort(arr):
     __quickSort(arr, lower, upper)
 
 
-arr = [12, 4, 16, 2, 5, 8, 90, 56]
-
 lst = [[23, 68, 1, 9, 4, 3],
         [23, 68, 1],
         [23, 68],
